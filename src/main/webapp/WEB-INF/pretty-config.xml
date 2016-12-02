@@ -1,0 +1,19 @@
+<pretty-config xmlns="http://ocpsoft.org/schema/rewrite-config-prettyfaces"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://ocpsoft.org/schema/rewrite-config-prettyfaces
+                      http://ocpsoft.org/xml/ns/prettyfaces/rewrite-config-prettyfaces.xsd">
+    
+    
+    <!--ARQUIVOS DE CONFIGIRACAO DO PRETTY-CONFIG, QUE E UM MAQUIADOR DE URL-->
+
+	<url-mapping id="index">
+		<pattern value="/index" />
+		<view-id value="index.xhtml" />
+	</url-mapping>
+
+	<url-mapping id="pagina">
+		<pattern value="/pagina" />
+		<view-id value="/pagina.xhtml" />
+	</url-mapping>
+
+</pretty-config>
